@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="mi.jpg" alt="John Doe" width="300" height="300">
+                    </div>
+                    
+                    <div class="about-text">
+                        <p>I'm John Doe, a passionate web developer with over 5 years of experience in creating web applications and websites. I specialize in front-end development using modern technologies like HTML5, CSS3, JavaScript, and frameworks like React and Vue.js.</p>
+                        <p>Currently, I work as a freelancer, collaborating with clients to build responsive and user-friendly websites that meet their business needs. I also have experience in UI/UX design, ensuring that the websites I create not only function well but also look great.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3 / SASS</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>React.js</li>
+                    <li>Vue.js</li>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>Bootstrap</li>
+                    <li>Responsive Design</li>
+                    <li>UI/UX Design</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive portfolio website showcasing my skills and projects. Built using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="project">
+                    <h3>E-commerce Store</h3>
+                    <p>Developed an e-commerce platform for a local business using React for the front end and Node.js with Express for the backend. Integrated with Stripe for payment processing.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume">
+            <div class="container">
+                <h2>Resume</h2>
+                <p>Download my resume <a href="Resume.pdf" download>here</a>.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form action="#" method="POST">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Contact Me: john.doe@example.com | Phone: +123456789</p>
+            <p>&copy; 2024 John Doe. All rights reserved.</p>
+            <ul>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Portfolio</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
